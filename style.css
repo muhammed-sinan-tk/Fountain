@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.full-height {
+    height: 100vh;
+    background-image: url('img/image 13.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    text-align: center;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.content-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.content-item img {
+    margin-bottom: 10px;
+}
+
+.content-item {
+    align-items: center;
+}
+.content-item img {
+    margin-right: 10px;
+}
+
+ /* Optional custom styles */
+ .box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bg-warning-subtle {
+    background-color: #fff3cd;
+}
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+.text-center img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 767px) {
+    .text-center img {
+        margin-top: 2rem;
+        
+    }
+}
+
+.no-underline a {
+    text-decoration: none;
+    text-align: justify;
+}
